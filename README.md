@@ -1,1 +1,0 @@
-# seungwoonlee.github.io
