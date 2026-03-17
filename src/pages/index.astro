@@ -1,0 +1,32 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="ko">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main class="max-w-screen-md mx-auto px-4 py-12">
+			<h1 class="text-4xl font-bold mb-6">🚀 Welcome to Vibe Coding</h1>
+			<p class="text-lg text-gray-700 leading-relaxed mb-4">
+				안녕하세요! **seungwoonlee**의 바이브 코딩 블로그에 오신 것을 환영합니다.
+			</p>
+			<p class="text-lg text-gray-700 leading-relaxed">
+				이곳은 최신 기술 트렌드, AI와 협업하는 노하우, 그리고 개발 과정에서 얻은 소중한 인사이트를 가볍고도 진지하게 기록하는 공간입니다. 
+				함께 '바이브' 있는 코딩의 세계를 탐험해 보세요.
+			</p>
+			<div class="mt-12 p-6 bg-gray-50 rounded-lg border border-gray-100">
+				<p class="text-gray-600 italic">
+					"코딩은 단순히 로직을 짜는 것이 아니라, 생각의 흐름을 기술로 실현하는 예술입니다."
+				</p>
+			</div>
+		</main>
+		<Footer />
+	</body>
+</html>

@@ -1,0 +1,32 @@
+---
+import AboutHeroImage from '../assets/blog-placeholder-about.jpg';
+import Layout from '../layouts/BlogPost.astro';
+---
+
+<Layout
+	title="About Vibe Coding"
+	description="블로그와 운영자 소개"
+	pubDate={new Date('March 17 2026')}
+	heroImage={AboutHeroImage}
+>
+	<p>
+		안녕하세요! **Vibe Coding** 블로그에 오신 것을 환영합니다.
+	</p>
+
+	<p>
+		이곳은 단순히 기술 정보를 나열하는 공간이 아닙니다. 
+		코드를 작성하며 느끼는 희열, 새로운 기술을 접하며 얻는 통찰, 
+		그리고 AI와 함께 성장해 나가는 현대적인 개발자의 여정을 기록하기 위해 만들어졌습니다.
+	</p>
+
+	<h2 class="text-2xl font-bold mt-8 mb-4">운영 목표</h2>
+	<ul>
+		<li><strong>통찰 공유</strong>: 겉핥기식 정보가 아닌, 실제 문제 해결 과정에서 얻은 깊이 있는 인사이트를 공유합니다.</li>
+		<li><strong>바이브 있는 코딩</strong>: 생산성과 즐거움이 공존하는 개발 문화를 지향합니다.</li>
+		<li><strong>함께 성장</strong>: 지식의 기록을 통해 저 자신뿐만 아니라 방문하시는 모든 분과 함께 성장하고자 합니다.</li>
+	</ul>
+
+	<p class="mt-8">
+		함께 고민하고 싶은 주제가 있거나 제안하실 내용이 있다면 언제든 편하게 소통해 주세요!
+	</p>
+</Layout>
