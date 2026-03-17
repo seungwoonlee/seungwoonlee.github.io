@@ -2,7 +2,7 @@
 title: '바이브 코딩으로 시작하는 개발 블로그'
 description: 'Astro와 함께하는 새로운 바이브 코딩 블로그의 탄생'
 pubDate: 'Mar 17 2026'
-heroImage: '/blog-placeholder-about.jpg'
+heroImage: '../../assets/blog-placeholder-about.jpg'
 ---
 
 오래된 리포지토리를 다시 깨워 **바이브 코딩(Vibe Coding)**의 기록장으로 만들었습니다.
