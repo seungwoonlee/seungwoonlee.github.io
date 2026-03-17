@@ -2,7 +2,7 @@
 title: '블로그 리뉴얼: Astro와 함께하는 바이브 코딩의 시작'
 description: '오래된 리포지토리를 최신 Astro 프레임워크로 리뉴얼하며 겪은 과정과 설정을 기록합니다.'
 pubDate: 'Mar 17 2026'
-heroImage: '../../assets/blog-placeholder-2.jpg'
+heroImage: '../../assets/astro-banner.svg'
 ---
 
 오랫동안 방치되어 있던 `seungwoonlee.github.io` 리포지토리를 다시 꺼냈습니다. 단순히 글을 쓰는 공간을 넘어, **바이브 코딩(Vibe Coding)**의 정수를 기록할 현대적인 블로그로 탈바꿈시키기 위한 여정을 요약합니다.
